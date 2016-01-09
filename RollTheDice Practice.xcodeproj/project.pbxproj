@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		230C75791C41BC2F00C1C238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C75781C41BC2F00C1C238 /* AppDelegate.swift */; };
+		230C757B1C41BC2F00C1C238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C757A1C41BC2F00C1C238 /* ViewController.swift */; };
+		230C757E1C41BC2F00C1C238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230C757C1C41BC2F00C1C238 /* Main.storyboard */; };
+		230C75801C41BC2F00C1C238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230C757F1C41BC2F00C1C238 /* Assets.xcassets */; };
+		230C75831C41BC2F00C1C238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230C75811C41BC2F00C1C238 /* LaunchScreen.storyboard */; };
+		230C758E1C41BC2F00C1C238 /* RollTheDice_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C758D1C41BC2F00C1C238 /* RollTheDice_PracticeTests.swift */; };
+		230C75991C41BC2F00C1C238 /* RollTheDice_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C75981C41BC2F00C1C238 /* RollTheDice_PracticeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		230C758A1C41BC2F00C1C238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 230C756D1C41BC2F00C1C238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230C75741C41BC2F00C1C238;
+			remoteInfo = "RollTheDice Practice";
+		};
+		230C75951C41BC2F00C1C238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 230C756D1C41BC2F00C1C238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230C75741C41BC2F00C1C238;
+			remoteInfo = "RollTheDice Practice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		230C75751C41BC2F00C1C238 /* RollTheDice Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RollTheDice Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		230C75781C41BC2F00C1C238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		230C757A1C41BC2F00C1C238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		230C757D1C41BC2F00C1C238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		230C757F1C41BC2F00C1C238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		230C75821C41BC2F00C1C238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		230C75841C41BC2F00C1C238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230C75891C41BC2F00C1C238 /* RollTheDice PracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RollTheDice PracticeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		230C758D1C41BC2F00C1C238 /* RollTheDice_PracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTheDice_PracticeTests.swift; sourceTree = "<group>"; };
+		230C758F1C41BC2F00C1C238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230C75941C41BC2F00C1C238 /* RollTheDice PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RollTheDice PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		230C75981C41BC2F00C1C238 /* RollTheDice_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTheDice_PracticeUITests.swift; sourceTree = "<group>"; };
+		230C759A1C41BC2F00C1C238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		230C75721C41BC2F00C1C238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230C75861C41BC2F00C1C238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230C75911C41BC2F00C1C238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		230C756C1C41BC2F00C1C238 = {
+			isa = PBXGroup;
+			children = (
+				230C75771C41BC2F00C1C238 /* RollTheDice Practice */,
+				230C758C1C41BC2F00C1C238 /* RollTheDice PracticeTests */,
+				230C75971C41BC2F00C1C238 /* RollTheDice PracticeUITests */,
+				230C75761C41BC2F00C1C238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		230C75761C41BC2F00C1C238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				230C75751C41BC2F00C1C238 /* RollTheDice Practice.app */,
+				230C75891C41BC2F00C1C238 /* RollTheDice PracticeTests.xctest */,
+				230C75941C41BC2F00C1C238 /* RollTheDice PracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		230C75771C41BC2F00C1C238 /* RollTheDice Practice */ = {
+			isa = PBXGroup;
+			children = (
+				230C75781C41BC2F00C1C238 /* AppDelegate.swift */,
+				230C757A1C41BC2F00C1C238 /* ViewController.swift */,
+				230C757C1C41BC2F00C1C238 /* Main.storyboard */,
+				230C757F1C41BC2F00C1C238 /* Assets.xcassets */,
+				230C75811C41BC2F00C1C238 /* LaunchScreen.storyboard */,
+				230C75841C41BC2F00C1C238 /* Info.plist */,
+			);
+			path = "RollTheDice Practice";
+			sourceTree = "<group>";
+		};
+		230C758C1C41BC2F00C1C238 /* RollTheDice PracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				230C758D1C41BC2F00C1C238 /* RollTheDice_PracticeTests.swift */,
+				230C758F1C41BC2F00C1C238 /* Info.plist */,
+			);
+			path = "RollTheDice PracticeTests";
+			sourceTree = "<group>";
+		};
+		230C75971C41BC2F00C1C238 /* RollTheDice PracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				230C75981C41BC2F00C1C238 /* RollTheDice_PracticeUITests.swift */,
+				230C759A1C41BC2F00C1C238 /* Info.plist */,
+			);
+			path = "RollTheDice PracticeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		230C75741C41BC2F00C1C238 /* RollTheDice Practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230C759D1C41BC2F00C1C238 /* Build configuration list for PBXNativeTarget "RollTheDice Practice" */;
+			buildPhases = (
+				230C75711C41BC2F00C1C238 /* Sources */,
+				230C75721C41BC2F00C1C238 /* Frameworks */,
+				230C75731C41BC2F00C1C238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RollTheDice Practice";
+			productName = "RollTheDice Practice";
+			productReference = 230C75751C41BC2F00C1C238 /* RollTheDice Practice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		230C75881C41BC2F00C1C238 /* RollTheDice PracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230C75A01C41BC2F00C1C238 /* Build configuration list for PBXNativeTarget "RollTheDice PracticeTests" */;
+			buildPhases = (
+				230C75851C41BC2F00C1C238 /* Sources */,
+				230C75861C41BC2F00C1C238 /* Frameworks */,
+				230C75871C41BC2F00C1C238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				230C758B1C41BC2F00C1C238 /* PBXTargetDependency */,
+			);
+			name = "RollTheDice PracticeTests";
+			productName = "RollTheDice PracticeTests";
+			productReference = 230C75891C41BC2F00C1C238 /* RollTheDice PracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		230C75931C41BC2F00C1C238 /* RollTheDice PracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230C75A31C41BC2F00C1C238 /* Build configuration list for PBXNativeTarget "RollTheDice PracticeUITests" */;
+			buildPhases = (
+				230C75901C41BC2F00C1C238 /* Sources */,
+				230C75911C41BC2F00C1C238 /* Frameworks */,
+				230C75921C41BC2F00C1C238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				230C75961C41BC2F00C1C238 /* PBXTargetDependency */,
+			);
+			name = "RollTheDice PracticeUITests";
+			productName = "RollTheDice PracticeUITests";
+			productReference = 230C75941C41BC2F00C1C238 /* RollTheDice PracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		230C756D1C41BC2F00C1C238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Vinh;
+				TargetAttributes = {
+					230C75741C41BC2F00C1C238 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					230C75881C41BC2F00C1C238 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 230C75741C41BC2F00C1C238;
+					};
+					230C75931C41BC2F00C1C238 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 230C75741C41BC2F00C1C238;
+					};
+				};
+			};
+			buildConfigurationList = 230C75701C41BC2F00C1C238 /* Build configuration list for PBXProject "RollTheDice Practice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 230C756C1C41BC2F00C1C238;
+			productRefGroup = 230C75761C41BC2F00C1C238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				230C75741C41BC2F00C1C238 /* RollTheDice Practice */,
+				230C75881C41BC2F00C1C238 /* RollTheDice PracticeTests */,
+				230C75931C41BC2F00C1C238 /* RollTheDice PracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		230C75731C41BC2F00C1C238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230C75831C41BC2F00C1C238 /* LaunchScreen.storyboard in Resources */,
+				230C75801C41BC2F00C1C238 /* Assets.xcassets in Resources */,
+				230C757E1C41BC2F00C1C238 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230C75871C41BC2F00C1C238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230C75921C41BC2F00C1C238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		230C75711C41BC2F00C1C238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230C757B1C41BC2F00C1C238 /* ViewController.swift in Sources */,
+				230C75791C41BC2F00C1C238 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230C75851C41BC2F00C1C238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230C758E1C41BC2F00C1C238 /* RollTheDice_PracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230C75901C41BC2F00C1C238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230C75991C41BC2F00C1C238 /* RollTheDice_PracticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		230C758B1C41BC2F00C1C238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 230C75741C41BC2F00C1C238 /* RollTheDice Practice */;
+			targetProxy = 230C758A1C41BC2F00C1C238 /* PBXContainerItemProxy */;
+		};
+		230C75961C41BC2F00C1C238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 230C75741C41BC2F00C1C238 /* RollTheDice Practice */;
+			targetProxy = 230C75951C41BC2F00C1C238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		230C757C1C41BC2F00C1C238 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				230C757D1C41BC2F00C1C238 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		230C75811C41BC2F00C1C238 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				230C75821C41BC2F00C1C238 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		230C759B1C41BC2F00C1C238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		230C759C1C41BC2F00C1C238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		230C759E1C41BC2F00C1C238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RollTheDice Practice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinh.RollTheDice-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		230C759F1C41BC2F00C1C238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RollTheDice Practice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinh.RollTheDice-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		230C75A11C41BC2F00C1C238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RollTheDice PracticeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinh.RollTheDice-PracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollTheDice Practice.app/RollTheDice Practice";
+			};
+			name = Debug;
+		};
+		230C75A21C41BC2F00C1C238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RollTheDice PracticeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinh.RollTheDice-PracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollTheDice Practice.app/RollTheDice Practice";
+			};
+			name = Release;
+		};
+		230C75A41C41BC2F00C1C238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RollTheDice PracticeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinh.RollTheDice-PracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RollTheDice Practice";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		230C75A51C41BC2F00C1C238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RollTheDice PracticeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinh.RollTheDice-PracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RollTheDice Practice";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		230C75701C41BC2F00C1C238 /* Build configuration list for PBXProject "RollTheDice Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230C759B1C41BC2F00C1C238 /* Debug */,
+				230C759C1C41BC2F00C1C238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230C759D1C41BC2F00C1C238 /* Build configuration list for PBXNativeTarget "RollTheDice Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230C759E1C41BC2F00C1C238 /* Debug */,
+				230C759F1C41BC2F00C1C238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		230C75A01C41BC2F00C1C238 /* Build configuration list for PBXNativeTarget "RollTheDice PracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230C75A11C41BC2F00C1C238 /* Debug */,
+				230C75A21C41BC2F00C1C238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		230C75A31C41BC2F00C1C238 /* Build configuration list for PBXNativeTarget "RollTheDice PracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230C75A41C41BC2F00C1C238 /* Debug */,
+				230C75A51C41BC2F00C1C238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 230C756D1C41BC2F00C1C238 /* Project object */;
+}
