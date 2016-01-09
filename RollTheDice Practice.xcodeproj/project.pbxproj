@@ -14,6 +14,7 @@
 		230C75831C41BC2F00C1C238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230C75811C41BC2F00C1C238 /* LaunchScreen.storyboard */; };
 		230C758E1C41BC2F00C1C238 /* RollTheDice_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C758D1C41BC2F00C1C238 /* RollTheDice_PracticeTests.swift */; };
 		230C75991C41BC2F00C1C238 /* RollTheDice_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C75981C41BC2F00C1C238 /* RollTheDice_PracticeUITests.swift */; };
+		230C75A71C41BD8100C1C238 /* RollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C75A61C41BD8100C1C238 /* RollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		230C75941C41BC2F00C1C238 /* RollTheDice PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RollTheDice PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		230C75981C41BC2F00C1C238 /* RollTheDice_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTheDice_PracticeUITests.swift; sourceTree = "<group>"; };
 		230C759A1C41BC2F00C1C238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230C75A61C41BD8100C1C238 /* RollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				230C75781C41BC2F00C1C238 /* AppDelegate.swift */,
 				230C757A1C41BC2F00C1C238 /* ViewController.swift */,
 				230C757C1C41BC2F00C1C238 /* Main.storyboard */,
+				230C75A61C41BD8100C1C238 /* RollViewController.swift */,
 				230C757F1C41BC2F00C1C238 /* Assets.xcassets */,
 				230C75811C41BC2F00C1C238 /* LaunchScreen.storyboard */,
 				230C75841C41BC2F00C1C238 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				230C757B1C41BC2F00C1C238 /* ViewController.swift in Sources */,
+				230C75A71C41BD8100C1C238 /* RollViewController.swift in Sources */,
 				230C75791C41BC2F00C1C238 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
